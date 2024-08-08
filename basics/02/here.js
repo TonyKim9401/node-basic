@@ -1,2 +1,2 @@
-console.log(`현재 모듈이 있는 폴더: ${__dirname}`);
-console.log(`현재 모듈의 파일명 : ${__filename}`);
+console.log(`folder's absolute path: ${__dirname}`);
+console.log(`file's absolute path : ${__filename}`);
