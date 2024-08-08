@@ -6,3 +6,6 @@
 // };
 
 // 화살표 함수
+let hi = () => `hello!`
+
+console.log(hi());
