@@ -1,5 +1,9 @@
 const express = require("express");
+const dbConnect = require("./config/dbConnect");
 const app = express();
+
+dbConnect();
+
 const router = require("./routes/contactRoutes");
 
 app.get("/", (req, res) => {
